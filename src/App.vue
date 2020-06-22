@@ -5,12 +5,12 @@
 
 <script>
 export default {
-   name: 'App',
+   name: 'app',
   components: {
   }
 }
 </script>
 
 <style scoped>
-
+  @import 'assets/css/base.css';
 </style>
