@@ -21,7 +21,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: 0px -1px 0px rgba(100, 100, 100, 0.8);
+    box-shadow: 0px -2px 0px rgba(100, 100, 100, 0.2);
   }
 </style>
 
