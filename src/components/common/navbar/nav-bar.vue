@@ -86,7 +86,7 @@ export default {
   }
 
   .rightside {
-    width: 100px;
+    width: 120px;
     float:right;
     height:100%;
   }
@@ -105,7 +105,6 @@ export default {
     width: 20px;
     height:100%;
     float:left; 
-    background:#e0c3fc;
   }
 
   .right{
@@ -122,6 +121,9 @@ export default {
     line-height: 20px;
     height: 100%;
     box-shadow: 0px 2px 0px rgba(100, 100, 100, 0.2);
+    text-align: center;
+    font: bold 18px  Georgia;
+    
   }
 
 </style>
