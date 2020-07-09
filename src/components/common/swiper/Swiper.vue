@@ -1,3 +1,4 @@
+// Swiper滑块栏组件封装
 <template>
     <div id="hy-swiper">
       <div class="swiper" @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd">
@@ -217,7 +218,6 @@
 
   .swiper {
     display: flex;
-    padding-top: 32px;
   }
 
   .indicator {

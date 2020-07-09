@@ -1,3 +1,4 @@
+// 导航栏组件封装
 <template>
 <!-- 导航开始 -->
 <div class="nav-bar">
@@ -22,7 +23,6 @@
 <!-- 顶部结束 -->
 <!-- 搜素开始 -->
   <div class="main">
-
     <div class="main_con">
 
       <div class="left">
@@ -43,7 +43,6 @@
 <!-- 搜素结束 -->
 <!-- 底部开始 -->
     <div class="barBottom">
-
       <slot name="barBottom"></slot>
     
     </div>  
@@ -65,7 +64,7 @@ export default {
   .nav-bar {
     display: flex;
     flex-direction:column;
-    height: 75px;
+    height: 100%;
     line-height: 40px;
     text-align: center;
   }
@@ -120,10 +119,9 @@ export default {
   .barBottom {
     line-height: 20px;
     height: 100%;
-    box-shadow: 0px 2px 0px rgba(100, 100, 100, 0.2);
+    box-shadow: 0px 1px 0px rgba(100, 100, 100, 0.2);
     text-align: center;
     font: bold 18px  Georgia;
-    
   }
 
 </style>

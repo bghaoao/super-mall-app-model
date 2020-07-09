@@ -80,12 +80,12 @@
 
 <style scoped>
 svg {
-  height: 48px;
-  width: 70px;
+  height: 45px;
+  width: 75px;
 }
 .icon2{
   height: 40px;
-  width: 26px;
+  width: 25px;
   padding-left: 20px;
 }
 img {
@@ -93,5 +93,8 @@ img {
   display: table;
   height: 20px;
   width: 20px;
+}
+strong {
+  height: 100%;
 }
 </style>
